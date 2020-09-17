@@ -78,7 +78,7 @@ This questions asks you to examine the function that produces random numbers.  I
 ### Q4. [Think Stats Chapter 5 Exercise 1](5-1-blue_men.md) (normal distribution of blue men)
 This is a classic example of hypothesis testing using the normal distribution.  The effect size used here is the Z-statistic. 
 
-
+See my Jupyter code at <https://github.com/zhouandrewc/ThinkStats2/tree/master/code>
 
 ### Q5. Bayesian (Elvis Presley twin) 
 
@@ -86,14 +86,16 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+```latex
+P(id|twin) = P(twin|id)P(id)/P(twin) = 1(1/300)/(1/125+1/300) = 5/17
+```
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
-
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+ 
+Whereas frequentist statistics assumes that an unknown parameter has a fixed value, Bayesian statistics assigns a probability distribution to unknown parameters. Frequentist statistics generally employs hypothesis testing and confidence intervals, while Bayesian statistics involves treating beliefs as a probability distribution and updating that belief in response to data.
 
 ---
 
